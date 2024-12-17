@@ -1,0 +1,123 @@
+/* General Page Styling */
+.receptionist-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .dashboard-header .dashboard-subheading {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Form Styling */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .patient-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Fields and Textarea */
+  .patient-form input,
+  .patient-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .patient-form input:focus,
+  .patient-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .btn-submit {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .btn-submit:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  /* View Appointments Button Styling */
+  .appointments-button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-view-appointments {
+    background: linear-gradient(145deg, #007bff, #0056b3); /* Gradient effect */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: all 0.3s ease;
+  }
+  
+  /* Adding an icon */
+  .btn-view-appointments i {
+    margin-right: 10px;
+  }
+  
+  /* Hover effect */
+  .btn-view-appointments:hover {
+    background: linear-gradient(145deg, #0056b3, #003c6c);
+    transform: translateY(-2px); /* Subtle elevation on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  }
+  
+  /* Focus Effect for Accessibility */
+  .btn-view-appointments:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 2px rgba(0, 123, 255, 0.5);
+  }
+  

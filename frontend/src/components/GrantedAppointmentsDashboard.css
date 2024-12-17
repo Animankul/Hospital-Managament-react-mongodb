@@ -1,0 +1,37 @@
+.granted-appointments-dashboard {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .appointments-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .appointments-table th, .appointments-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .appointments-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .appointments-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .appointments-table tr:hover {
+    background-color: #ddd;
+  }
+  
